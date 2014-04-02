@@ -88,6 +88,10 @@ endif
 set textwidth=80
 set colorcolumn=+1
 
+" Make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
+
 " Numbers
 set relativenumber
 set number
