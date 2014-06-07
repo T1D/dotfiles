@@ -20,6 +20,7 @@ set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set noeol
 set nowrap
+set backspace=eol,start,indent
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -87,14 +88,11 @@ endif
 set textwidth=80
 set colorcolumn=+1
 
-" Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
-
 " Numbers
 set relativenumber
 set number
 set numberwidth=5
+set relativenumber
 
 " Tab completion
 " will insert tab at beginning of line,
@@ -116,6 +114,11 @@ let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
+
+" vim-rspec mappings
+nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
+nnoremap <Leader>s :call RunNearestSpec()<CR>
+nnoremap <Leader>l :call RunLastSpec()<CR>
 
 " Run commands that require an interactive shell
 nnoremap <Leader>r :RunInInteractiveShell<space>
