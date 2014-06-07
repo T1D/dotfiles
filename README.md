@@ -1,4 +1,4 @@
-thoughtbot dotfiles
+Unitio dotfiles / forked from thoughtbot/dotfiles
 ===================
 
 Requirements
@@ -13,7 +13,7 @@ Install
 
 Clone onto your laptop:
 
-    git clone git://github.com/thoughtbot/dotfiles.git
+    git clone git://github.com/t1d/dotfiles.git
 
 (Or, [fork and keep your fork
 updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
@@ -162,7 +162,6 @@ What's in it?
   available.
 * Use [Exuberant Ctags](http://ctags.sourceforge.net/) for tab completion.
 * Use [vim-mkdir](https://github.com/pbrisbin/vim-mkdir) for automatically
-  creating non-existing directories before writing the buffer.
 * Use [Vundle](https://github.com/gmarik/Vundle.vim) to manage plugins.
 
 [tmux](http://robots.thoughtbot.com/a-tmux-crash-course)
@@ -224,6 +223,7 @@ About thoughtbot
 
 dotfiles is maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+=======
 
 We love open source software!
 See [our other projects][community].
