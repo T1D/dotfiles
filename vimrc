@@ -14,7 +14,7 @@ set autowrite     " Automatically :write before running commands
 set noeol
 set nowrap
 set colorcolumn=80 " set right margin
-set backspace=eol,start,indent
+
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
