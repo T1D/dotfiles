@@ -11,6 +11,10 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set noeol
+set nowrap
+set colorcolumn=80 " set right margin
+set backspace=eol,start,indent
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -81,6 +85,7 @@ set colorcolumn=+1
 " Numbers
 set number
 set numberwidth=5
+set relativenumber
 
 " Tab completion
 " will insert tab at beginning of line,
@@ -105,12 +110,6 @@ map <Leader>ct :!ctags -R .<CR>
 
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
-
-" Get off my lawn
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
 
 " vim-rspec mappings
 nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
