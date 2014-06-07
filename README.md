@@ -223,7 +223,6 @@ About thoughtbot
 
 dotfiles is maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-=======
 
 We love open source software!
 See [our other projects][community].
