@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Unitio dotfiles
+=======
+Unitio dotfiles / forked from thoughtbot/dotfiles
+>>>>>>> Update README.md
 ===================
 forked from thoughtbot/dotfiles
 -------------------------------
