@@ -1,4 +1,5 @@
-Unitio dotfiles / forked from thoughtbot/dotfiles
+Unitio dotfiles
+forked from thoughtbot/dotfiles
 ===================
 
 Requirements
