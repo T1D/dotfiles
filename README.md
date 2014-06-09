@@ -1,6 +1,7 @@
 Unitio dotfiles
-forked from thoughtbot/dotfiles
 ===================
+forked from thoughtbot/dotfiles
+-------------------------------
 
 Requirements
 ------------
