@@ -162,6 +162,7 @@ What's in it?
   available.
 * Use [Exuberant Ctags](http://ctags.sourceforge.net/) for tab completion.
 * Use [vim-mkdir](https://github.com/pbrisbin/vim-mkdir) for automatically
+  creating non-existing directories before writing the buffer.
 * Use [Vundle](https://github.com/gmarik/Vundle.vim) to manage plugins.
 
 [tmux](http://robots.thoughtbot.com/a-tmux-crash-course)
