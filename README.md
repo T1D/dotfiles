@@ -1,9 +1,5 @@
 Unitio dotfiles / forked from thoughtbot/dotfiles
-<<<<<<< HEAD
--------------------------------
-=======
 ===================
->>>>>>> Update README.md
 
 Requirements
 ------------
